@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_subscribe"
+                android:icon="@drawable/ic_subscribe"
+                android:title="Subscribe us " />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact_us"
+                android:title="Contact us" />
+            <item
+                android:id="@+id/nav_invite"
+                android:icon="@drawable/ic_invite"
+                android:title="Invite" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffcc80</color>
+    <color name="colorPrimaryDark">#121212</color>
+    <color name="colorPrimaryLight">#ffffe4</color>
+    <color name="colorSecondary">#ffcc80</color>
+    <color name="colorSecondaryLight">#ca9b52</color>
+    <color name="colorSecondaryDark">#ca9b52</color>
+
+    <color name="toolbarColor">#FFFF</color>
+    <color name="toolbartextColor">#000</color>
+    <color name="toolbarColorTint">#000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="cfdialogueColor">#FFFF</color>
+    <color name="snackbarcolor">#dedee5</color>
+    <color name="snackbartext">#ad0101</color>
+    <color name="cfdialoguecolorContact">#dedee5</color>
+    <color name="navigation_text_header_color">#FFFF</color>
+    <color name="navigation_text_subtitle_color">#ededef</color>
+    <color name="like_button_bubble_color">#ad0101</color>
+    <color name="bottom_relative_layout_album_card">#ffff</color>
+    <color name="album_title">#0e0147</color>
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="dark_bg">#121212</color>
+</resources>

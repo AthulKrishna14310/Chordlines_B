@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1092854002088",
+    "project_id": "gamermw-5822f",
+    "storage_bucket": "gamermw-5822f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092854002088:android:b599b3e03a5e30599ead9d",
+        "android_client_info": {
+          "package_name": "com.integrals.chordlinesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092854002088-h9hja2uqm7ec9deab38q07puoi65icm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALXK7FMa7DfV8L2nOdV2zpSIfYcI8XfBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092854002088-h9hja2uqm7ec9deab38q07puoi65icm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

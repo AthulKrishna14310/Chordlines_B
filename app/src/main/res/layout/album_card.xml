@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp"
+    app:cardBackgroundColor="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/coverImageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+
+            >
+
+            <ImageView
+                android:id="@+id/cover_pic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:cardBackgroundColor="#000"
+                app:cardCornerRadius="21dp">
+
+                <Button
+                    android:id="@+id/play_album_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/play_album" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/album_options_layout"
+            android:layout_below="@+id/coverImageLayout">
+
+            <TextView
+                android:id="@+id/albumTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Song name"
+
+                android:textColor="@color/album_title"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/album_options_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bottom_relative_layout_album_card">
+
+            <Button
+                android:id="@+id/album_details"
+                android:layout_width="22dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:background="@drawable/ic_details_album" />
+
+            <Button
+                android:id="@+id/share_link"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignRight="@+id/album_details"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="70dp"
+                android:background="@drawable/share_album" />
+
+            <Button
+                android:id="@+id/download_album"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignRight="@+id/album_details"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="140dp"
+
+
+                android:background="@drawable/download_album" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
